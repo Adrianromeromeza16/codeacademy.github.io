@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+/*@font-face {
+    font-family: 'TheBoldFont';
+    src: url(Fonts/TheBoldFont.otf);
+}
+
+@font-face {
+    font-family: 'Morfelan';
+    src:local(Morfelan),
+        url(Fonts/Morfelan.otf);
+}
+
+@font-face {
+    font-family: 'TT Interphases';
+    src: url(Fonts/TT\ Interphases.ttf);
+}*/
+
+code{
+    background: paleturquoise;
+    padding: 0 3.5px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h1{
+    font-family:  Roboto;
+    color: Indigo;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    font-family: Roboto;
+    color: Navy;
+    border: 1px solid Indigo;
+    padding: 0 15px;    
+    line-height: 22px;
+}
+
+th{
+    font-family: Roboto;
+    background-color: Indigo;
+    padding: 10px;
+    color:white;
+    text-transform: uppercase;
+}
